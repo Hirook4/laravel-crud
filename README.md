@@ -2,8 +2,8 @@
 
 <div align="center">
 
-<a href="https://github.com/Hirook4" target="_blank"><img src="prints/print01.png" width="30%"></a>
-<a href="https://github.com/Hirook4" target="_blank"><img src="prints/print02.png" width="30%"></a>
+<a href="https://github.com/Hirook4" target="_blank"><img src="prints/print01.png" width="45%"></a>
+<a href="https://github.com/Hirook4" target="_blank"><img src="prints/print02.png" width="45%"></a>
 
 </div>
 
