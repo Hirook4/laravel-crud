@@ -7,6 +7,7 @@
     <title>laravel-crud</title>
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,600" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="icon" href="https://laravel.com/img/favicon/favicon.ico" type="image/x-icon">
 </head>
 
 <body style="font-family: 'Nunito', sans-serif;">
@@ -18,7 +19,7 @@
             </div>
         </div>
     </nav>
-    <div id="line-one" class="pt-5 mt-5">
+    <div style="padding-top: 75px;">
         <div class="container">
             <div class="text-center">
                 <h1 class="fw-bold">Products</h1>

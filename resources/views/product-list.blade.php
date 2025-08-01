@@ -7,6 +7,7 @@
     <title>laravel-crud</title>
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,600" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="icon" href="https://laravel.com/img/favicon/favicon.ico" type="image/x-icon">
 </head>
 
 <body style="font-family: 'Nunito', sans-serif;" class="bg-white text-dark">
@@ -15,7 +16,7 @@
             <a class="navbar-brand" href="{{ url('/') }}">Home</a>
         </div>
     </nav>
-    <div class="container" style="padding-top: 100px;">
+    <div class="container" style="padding-top: 75px;">
         @if (session('message'))
         <div class="alert alert-success alert-dismissible fade show" role="alert">
             {{ session('message') }}
@@ -25,9 +26,7 @@
         <div class="text-center">
             <h1 class="fw-bold">Products</h1>
             <h5 class="fw-semibold">products number ({{ $total }})</h5>
-            <a href="{{ route('product.create') }}" class="btn btn-outline-dark mb-4">
-                <i class="fa fa-plus"></i>new product
-            </a>
+            <a href="{{ route('product.create') }}" class="btn btn-outline-dark mt-2 mb-2"><i class="fa fa-plus"></i>new product</a>
         </div>
         <div class="table-responsive">
             <table class="table table-hover align-middle">
@@ -59,6 +58,10 @@
                     @endforeach
                 </tbody>
             </table>
+            <!-- Paginação -->
+            <div class="d-flex justify-content-center mt-4">
+                {{ $products->links() }}
+            </div>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>

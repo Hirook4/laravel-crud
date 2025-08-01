@@ -9,8 +9,13 @@ class ProductController extends Controller
 {
     public function index()
     {
-        $products = Product::all();
-        $total = Product::all()->count();
+        /* Lista produtos sem paginação e conta o total
+        $products = Product::all(); 
+        $total = Product::all()->count(); */
+
+        /* Lista produtos com paginação e conta o total de todas as paginas */
+        $products = Product::paginate(8);
+        $total = Product::count();
         return view('product-list', compact('products', 'total'));
     }
 
