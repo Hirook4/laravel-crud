@@ -14,6 +14,10 @@
     <nav class="navbar navbar-dark bg-dark fixed-top">
         <div class="container">
             <a class="navbar-brand" href="{{ url('/') }}">Home</a>
+            <form action="{{ route('logout') }}" method="POST">
+                @csrf
+                <a class="navbar-brand" href="{{ url('/') }}"> <button type="submit" class="btn btn-danger">Logout</button></a>
+            </form>
         </div>
     </nav>
     <div class="container" style="padding-top: 75px;">

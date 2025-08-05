@@ -2,8 +2,9 @@
 
 <div align="center">
 
-<a href="https://github.com/Hirook4/laravel-crud/blob/main/prints/print01.png" target="_blank"><img src="prints/print01.png" width="45%"></a>
-<a href="https://github.com/Hirook4/laravel-crud/blob/main/prints/print02.png" target="_blank"><img src="prints/print02.png" width="45%"></a>
+<a href="https://github.com/Hirook4/laravel-crud/blob/main/prints/print01.png" target="_blank"><img src="prints/print01.png" width="33%"></a>
+<a href="https://github.com/Hirook4/laravel-crud/blob/main/prints/print02.png" target="_blank"><img src="prints/print02.png" width="33%"></a>
+<a href="https://github.com/Hirook4/laravel-crud/blob/main/prints/print03.png" target="_blank"><img src="prints/print02.png" width="33%"></a>
 
 </div>
 
